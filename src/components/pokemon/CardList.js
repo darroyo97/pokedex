@@ -32,7 +32,7 @@ class CardList extends Component {
                                 .join(' ')}
                         </p>
                     </div>
-                    <div card-body>
+                    <div class="card-body">
                         <Sprite className="card-img-top rounded mx-auto mt-2" src={this.state.imageUrl} />
                     </div>
                 </div>
