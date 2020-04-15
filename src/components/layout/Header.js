@@ -7,9 +7,9 @@ export class Header extends Component {
             <div>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed top">
                     <button class="blue-button button5">Pokedex</button>
-                    <button class="green-button button5">o</button>
                     <button class="red-button button5">o</button>
                     <button class="yellow-button button5">o</button>
+                    <button class="green-button button5">o</button>
                 </nav>
             </div>
         )
