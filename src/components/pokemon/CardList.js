@@ -33,7 +33,7 @@ class CardList extends Component {
                         </p>
                     </div>
                     <div class="card-body">
-                        <Sprite className="card-img-top rounded mx-auto mt-2" src={this.state.imageUrl} />
+                        <Sprite className="card-img-top rounded mx-auto" src={this.state.imageUrl} />
                     </div>
                 </div>
 
