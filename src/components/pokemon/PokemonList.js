@@ -25,7 +25,7 @@ class PokemonList extends Component {
                         ))}
                     </div>
                 ) : (
-                        <h1>loading ...</h1>
+                        <h1>Welcome Trainer !</h1>
                     )}
             </div>
         )

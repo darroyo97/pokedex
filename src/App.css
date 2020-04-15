@@ -1,19 +1,21 @@
+
 .main_container {
     margin: auto;
     margin-top: 50px;
-    width: 80%;
+    width: 90%;
     border: 1px solid black;
     padding: 10px;
     background-color: #FB0605;
     padding: 10px;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 10px 10px black;
     border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .inner_container {
     margin: auto;
     margin-top: 10px;
     width: 90%;
-    border: 18px solid grey;
+    border: 20px solid grey;
     padding: 10px;
     background-color: black;
     padding: 10px;
@@ -22,4 +24,16 @@
 .navbar {
     background-color: transparent !important;
     border-bottom: 1px solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.card {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    box-shadow: 0 1px 3px grey, 0 1px 2px grey;
+    background-color: #23CE6B;
+    color:white;
+    text-align:center;
+}
+body {
+    background-color: #307BFB;
 }
