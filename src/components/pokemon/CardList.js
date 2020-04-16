@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom'
 
 const Sprite = styled.img`
   width: 5em;
@@ -22,6 +23,7 @@ class CardList extends Component {
     render() {
         return (
             <div className="col-md-3 col-sm-6 mb-5">
+                <Link to={`pokemon/${this.state.pokemonIndex}`}>
                 <div className="card">
                     <div className="card-header">
                         <p>
@@ -36,6 +38,7 @@ class CardList extends Component {
                         <Sprite className="card-img-top rounded mx-auto" src={this.state.imageUrl} />
                     </div>
                 </div>
+                </Link>
 
             </div>
         )

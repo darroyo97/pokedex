@@ -15,9 +15,18 @@
     margin: auto;
     margin-top: 10px;
     width: 90%;
-    border: 20px solid grey;
+    border: 20px solid #6F6E6E;
     padding: 10px;
     background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card_container{
+     margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
 }

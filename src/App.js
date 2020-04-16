@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Header from './components/layout/Header'
 import './App.css'
 import Dashboard from './components/layout/Dashboard';
+import IndCard from './components/pokemon/IndCard'
 
 export class App extends Component {
     render() {
@@ -15,6 +16,7 @@ export class App extends Component {
                 <div className="inner_container">
                     <Switch>
                     <Route exact path="/" component={Dashboard} />
+                    <Route exact path="/pokemon/:pokemonIndex" component={IndCard} />
                     </Switch>
                 </div>
             </div>
