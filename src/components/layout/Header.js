@@ -8,13 +8,15 @@ export class Header extends Component {
             <div>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed top">
                     <Link to="/">
-                    <button class="blue-button button5">Pokedex</button>
+                        <button class="blue-button button5">Pokedex</button>
                     </Link>
-                    <button class="red-button button5">o</button>
+                    <Link to="/locations">
+                        <button class="red-button button5">o</button>
+                    </Link>
                     <button class="yellow-button button5">o</button>
                     <button class="green-button button5">o</button>
-                </nav>
-            </div>
+                </nav >
+            </div >
         )
     }
 }
